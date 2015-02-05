@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nmap4j
+Bundle-SymbolicName: org.nmap4j;singleton:=true
+Bundle-Version: 1.0.4
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.nmap4j,
+ org.nmap4j.core.flags,
+ org.nmap4j.core.nmap,
+ org.nmap4j.core.scans,
+ org.nmap4j.data,
+ org.nmap4j.data.host,
+ org.nmap4j.data.host.os,
+ org.nmap4j.data.host.ports,
+ org.nmap4j.data.nmaprun,
+ org.nmap4j.data.nmaprun.host.ports.extraports,
+ org.nmap4j.data.nmaprun.host.ports.port,
+ org.nmap4j.data.nmaprun.hostnames,
+ org.nmap4j.data.nmaprun.runstats,
+ org.nmap4j.model,
+ org.nmap4j.parser,
+ org.nmap4j.parser.events,
+ org.nmap4j.parser.util
+
